@@ -5,7 +5,6 @@ import pip
 pip.main(["install" , "openpyxl"])
 
 st.title("🎈 EJERCICIO PRÁCTICO 3   ******GRUPO 6******")
-pd = pd.read_excel('cryptos.xlsx')
+df = pd.read_excel('cryptos.xlsx')
 
-st.write(df
-)
+st.write(df)
